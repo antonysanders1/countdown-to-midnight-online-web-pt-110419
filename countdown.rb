@@ -3,8 +3,8 @@
 def countdown
   counter = 10
   until counter = 0 
-  puts "#{counter} SECONDS!"
-  sleep 1
+  puts "#{counter} SECOND(S)!"
+ # sleep 1
   counter -= 1 
 end
   
@@ -12,4 +12,7 @@ end
 end
 
 
-countdown
+def countdown_with_sleep
+
+
+end
