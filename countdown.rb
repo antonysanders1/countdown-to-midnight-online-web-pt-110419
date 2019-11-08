@@ -4,7 +4,6 @@ def countdown
   countdown_output = 10
   until countdown_output == 0 
   puts "#{countdown_output} SECOND(S)!"
-
   countdown_output -= 1 
 end
   
