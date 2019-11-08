@@ -13,5 +13,6 @@ end
 
 
 def countdown_with_sleep
+  time = Time.now
   sleep 5
 end
