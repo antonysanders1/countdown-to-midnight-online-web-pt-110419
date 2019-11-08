@@ -1,10 +1,10 @@
 #write your code here
 
 def countdown
-  counter = 10
+  counter == 10
   until counter = 0 
   puts "#{counter} SECOND(S)!"
-  sleep 1
+#  sleep 1
   counter -= 1 
 end
   
